@@ -6,6 +6,8 @@ Aulas de Desenvolvimento de Interfaces Web.
 - [Aulas MPBD](https://github.com/AndreiLegram/aulas_mpbd)
 - [Aulas PPPI](https://github.com/AndreiLegram/aulas_pppi)
 - [Aulas DS](https://github.com/AndreiLegram/aulas_ds)
+- [Aulas DAC](https://github.com/AndreiLegram/aulas_dac)
+- [Aulas PDM](https://github.com/AndreiLegram/aulas_pdm)
 
 #### Created by:
 
