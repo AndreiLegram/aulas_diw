@@ -1,0 +1,33 @@
+@baseUrl = http://localhost:3000
+@movieId = 82bfa8ba-5864-4a3d-956d-84df5804985a
+
+### Pesquisa todos os filmes
+GET {{baseUrl}}/api/movies
+
+### Pesquisa um filme específico
+GET {{baseUrl}}/api/movies/{{movieId}}
+
+### Cria um novo filme
+POST {{baseUrl}}/api/movies
+Content-Type: application/json
+
+{
+    "name": "O Pagador de Promessas",
+    "synopsis": "Zé do Burro é um cristão simples e devoto de Santa Bárbara.",
+    "year": 1962,
+    "trailerLink": "https://www.youtube.com/watch?v=oyYDcXD-SqI"
+}
+
+### Altera o filme com id={{movieId}}
+PUT {{baseUrl}}/api/movies/{{movieId}}
+Content-Type: application/json
+
+{
+    "name": "O Pagador de Promessas HD",
+    "synopsis": "Zé do Caixão é um cristão simples e devoto de Santa Bárbara.",
+    "year": 1964,
+    "trailerLink": "https://www.youtube.com/watch?v=oyYDcXD-SqI"
+}
+
+### Exclui um filme específico
+DELETE {{baseUrl}}/api/movies/{{movieId}}
